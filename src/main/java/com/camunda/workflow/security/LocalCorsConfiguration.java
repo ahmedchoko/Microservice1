@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 public class LocalCorsConfiguration {
-
+/*
 	@Bean
     public WebMvcConfigurer corsConfigurer() {
         return new WebMvcConfigurer() {
@@ -20,5 +20,5 @@ public class LocalCorsConfiguration {
                /// registry.addMapping("/**").allowedOrigins("*");
             }
         };
-    }
+    }*/
 }
