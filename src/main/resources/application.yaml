@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: banque
+  datasource:
+    url: jdbc:h2:file:./camunda-h2-database;DB_CLOSE_DELAY=-1
+  cloud:
+    config:
+      uri: ${spring.cloud.config.uri} 
+camunda.bpm.admin-user:
+  id: demo
+  password: 12345
